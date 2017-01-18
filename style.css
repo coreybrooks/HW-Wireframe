@@ -4,7 +4,6 @@
 
 body {
 	margin: auto;
-	position: relative;
 	font-family: "arial", "Helvetica Neue", "sans-sarif";
 	font-size: 18px;
 	background: #777;
@@ -13,81 +12,67 @@ body {
 }
 
 header {
+	margin: 10px;
+	padding: 40px;
 	background: #ebebeb;
 	color: #777;
-	padding: 30px;
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 nav {
+	margin: 10px;
+	padding: 40px;
 	background: #ebebeb;
 	color: #777;
-	padding: 30px;
-	margin-bottom: 20px;
 }
 
-#section1 {	
-	padding: 30px;
-	position: relative;
+section {
+    position: relative;	
+	margin: 10px;
+	padding: 30px 10px 0px 10px;
 	background: #ebebeb;
 	color: #777;
 	width: 495px;
-	height: 220px;
+	height: 260px;
 	float: left;
-	margin-bottom: 20px;
 }
+
 article {
-	padding: 10px;
+	position: relative;
+	top: 20px;
+	padding: 15px;
 	background: #777;
-	color: white;
-	margin: 10px;
-	height: 150px;
+	color: #ebebeb;
+	height: 180px;
 }
 
 h1 {
-	display: inline;
-	float: left;
 	padding: 10px;
 	background: #ebebeb;
 	color: #777;
-	margin: 10px;
-}
-
-h2 {
-	display: inline;
-	float: left;
-	background: #ebebeb;
-	color: #777;
-	display: inline;
-}
-
-h3 {
-	background: #ebebeb;
-	color: #777;
-	display: inline;
 }
 
 p {
+	padding:10px;
 	background: #ebebeb;
 	color: #777;
-	margin: 10px;
-	padding: 10px;
 }
 
 aside {
+	margin: 10px;
 	padding: 30px;
 	float: right;
-	width: 450px;
-	height: 220px;
+	width: 425px;
+	height: 260px;
 	background: #ebebeb;
 	color: #777;
 }
 
 footer {
-	padding: 30px;
+	position: relative;
+	top: 10px;
+	margin: 10px;
+	padding: 40px;
 	clear: both;
 	background: #ebebeb;
 	color: #777;
-	margin-top: 10px;
 }
